@@ -175,9 +175,52 @@ main {
     display: flex;
     gap: 20px;
     padding: 48px;
-    background-color: white
+    background-color: white;
+    border-radius: 24px;
+    margin-top: 24px;
 }
 
 .news-banner {
     border-radius: 20px;
+}
+
+.news-heading {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Fira Sans", serif;
+}
+
+.news-dis {
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E0E0E;
+    opacity: 70%;
+    font-family: "Fira Sans", serif;
+    margin: 10px 0px 10px 0px;
+    margin-top: 20px;
+}
+
+.publsih {
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E0E0E;
+    opacity: 70%;
+    font-family: "Fira Sans", serif;
+    margin: 10px 0px 10px 0px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.news-logo {
+    margin-bottom: 20px;
+}
+
+.news-card-2 {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+    padding: 48px;
+    background-color: white;
+    border-radius: 24px;
+    margin: 24px 0px;
 }
