@@ -23,6 +23,7 @@ main {
     font-size: 17px;
     font-family: "Fira Sans", serif;
     margin: 10px 0px;
+    border: none;
 }
 
 /* banner section */
@@ -223,4 +224,77 @@ main {
     background-color: white;
     border-radius: 24px;
     margin: 24px 0px;
+}
+
+/* donet section style */
+
+.donet-heading {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Fira Sans", serif;
+    text-align: center;
+}
+
+.donet-pra {
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E0E0E;
+    text-align: center;
+    opacity: 70%;
+    font-family: "Fira Sans", serif;
+    margin: 10px 0px 10px 0px;
+    margin-top: 20px;
+}
+
+.donet-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.donet-ammunt {
+    background-color: white;
+    color: black;
+    border-radius: 16px;
+    padding: 40px;
+    border: solid 1px;
+    border-color: #dddddd;
+
+}
+
+.donet-tittle {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Fira Sans", serif;
+}
+
+.ammount {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    border: none;
+    color: #0E0E0E;
+    font-size: 16px;
+    font-family: "Fira Sans", serif;
+
+}
+
+.btn-primary-submit {
+    background-color: #006A50;
+    color: white;
+    padding: 17px 34px;
+    border-radius: 8px;
+    font-size: 17px;
+    font-family: "Fira Sans", serif;
+    margin: 10px 0px;
+    border: none;
+    margin-top: 32px;
+}
+
+.donet-send {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
