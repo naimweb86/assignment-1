@@ -1,7 +1,6 @@
 * {
     margin: 0px;
 
-
 }
 
 body {
@@ -24,6 +23,10 @@ main {
     font-family: "Fira Sans", serif;
     margin: 10px 0px;
     border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0E0E0E;
 }
 
 /* banner section */
@@ -58,8 +61,8 @@ main {
 
 /* piller section style */
 .piller-section {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 .section-heading {
@@ -171,7 +174,58 @@ main {
     color: white;
 }
 
+.btn-vision-1:hover {
+    background-color: #006A50;
+}
+
+/* quote section style */
+.Quote-section {
+    background-color: white;
+    padding: 32px;
+    border-radius: 16px;
+    margin-bottom: 80px;
+    border: solid 1px;
+    border-color: #dddddd;
+}
+
+.quote {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: "Fira Sans", serif;
+    color: #0E0E0E;
+    opacity: 80%;
+}
+
+.quote-author {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Fira Sans", serif;
+    color: #0E0E0E;
+    opacity: 80%;
+    margin-top: 12px;
+    margin-bottom: 5px;
+
+}
+
+.quote-dis {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: "Fira Sans", serif;
+    color: #0E0E0E;
+    opacity: 60%;
+}
+
+.quote-img {
+    margin-bottom: -35px;
+}
+
 /* News section */
+.news-section {
+    margin-top: 80px;
+}
+
 .news-card {
     display: flex;
     gap: 20px;
@@ -227,6 +281,9 @@ main {
 }
 
 /* donet section style */
+.donet-section {
+    margin: 80px 0px;
+}
 
 .donet-heading {
     font-size: 32px;
@@ -270,6 +327,14 @@ main {
     font-family: "Fira Sans", serif;
 }
 
+.donet-ammunt:hover {
+    background-color: #c6e4d6;
+}
+
+.donet-ammunt:active {
+    background-color: #006A50;
+}
+
 .ammount {
     width: 100%;
     text-align: center;
@@ -278,7 +343,10 @@ main {
     color: #0E0E0E;
     font-size: 16px;
     font-family: "Fira Sans", serif;
+}
 
+.ammount:focus-visible {
+    border: none;
 }
 
 .btn-primary-submit {
@@ -297,4 +365,8 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.btn-primary-submit:hover {
+    background-color: #0E0E0E;
 }
